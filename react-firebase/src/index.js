@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// 안에 있는 값을 꺼내지 않고 바로 실행
+// 9버전(모듈형)을 쓸 때는 아래와 같이 쓸 필요 없음
+// 8버젼 이하에서 사용하는 방식
+// (크롬을 쓸때) 안에 있는 값을 꺼내지 않고 바로 실행 (from)
 import './database/firebase'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
